@@ -23,7 +23,7 @@ body{font-family:Lato,Arial,sans-serif;font-weight:300;color:var(--gray);backgro
 .visit-date{font-size:11px;color:var(--gray)}
 .sheet-note{font-size:10px;color:var(--gray);margin-top:5px;font-style:italic}
 
-table{width:100%;border-collapse:collapse;table-layout:fixed;background:var(--white)}
+table{width:100%;border-collapse:collapse;background:var(--white)}
 thead tr{background:var(--primary)}
 thead th{color:#fff;font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;padding:12px 16px;text-align:left;vertical-align:middle}
 
@@ -41,7 +41,7 @@ th.col-status,td.col-status{display:none}
 
 /* All data rows - unified for both old (dr) and new (data-row) class names */
 tbody tr.dr td,
-tbody tr.data-row td{padding:18px 16px;vertical-align:top;border-bottom:1px solid var(--divider);line-height:1.6;word-break:break-word;font-size:12px}
+tbody tr.data-row td{padding:18px 16px;vertical-align:top;border-bottom:1px solid var(--divider);line-height:1.6;word-wrap:break-word;word-break:normal;font-size:12px}
 
 /* Task label - unified for both tl and bk */
 .tl,.bk{font-weight:700;font-size:12px;color:#3a3535}
